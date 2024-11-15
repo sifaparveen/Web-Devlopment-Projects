@@ -1,0 +1,110 @@
+body {
+  background-color: #edf2c3;
+}
+
+main {
+  border-block: solid;
+  border-block-color: white;
+  background-color: white;
+  border-radius: 64px;
+  text-align: center;
+  height: 755px;
+  width: 510px;
+  margin: 113px auto;
+  box-shadow: 5px 5px 5px 5px rgba(59, 59, 59, 0.415);
+}
+
+.container {
+  background: url("https://cdn.glitch.global/874abe29-b28e-4294-9b4c-776a1a961b8a/edge.png?v=1724528656571")
+      no-repeat bottom,
+    linear-gradient(
+      180deg,
+      rgba(151, 49, 80, 1) 56%,
+      rgba(255, 255, 255, 1) 74%,
+      rgba(255, 255, 255, 1) 99%
+    );
+  border-radius: 64px 64px 0 0;
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem 0 5rem 0;
+  width: 100%;
+  min-height: 12rem;
+}
+
+#profile {
+  width: 160px;
+  height: 160px;
+  background: #eaeaea;
+  border-radius: 50%;
+  display: block;
+  /* margin-top: 13px; */
+  margin-left: 178px;
+}
+
+nav {
+  border: none;
+  display: inline-block;
+}
+
+button#follow {
+  border: none;
+  background-color: #df3f8c;
+  border-radius: 999px;
+  height: 57px;
+  width: 191px;
+  color: #fff;
+  font-size: 20px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+button#message {
+  border: 1px solid #838383;
+  /* background-color: #eaeaea; */
+  /* box-shadow: 10px 5px 5px rgb(137, 137, 137); */
+  border-radius: 999px;
+  height: 57px;
+  width: 191px;
+  color: #838383;
+}
+
+.button {
+  margin: 0 40px 44px 40px;
+}
+
+h1 {
+  font-size: 38px;
+  height: 45px;
+  width: 281px;
+  text-align: center;
+  margin: 20px 22.4% 24px 22.4%;
+}
+
+h2 {
+  font-size: 16px;
+  height: 19px;
+  width: 100px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0 40.2% 0 40.2%;
+}
+
+nav {
+  /* margin: 0 20%; */
+}
+
+.icon {
+  display: inline;
+  height: 32px;
+  width: 32px;
+  margin: 34px 17px 0 17px;
+}
+
+p {
+  font-size: 18px;
+  height: 75px;
+  width: 414px;
+  line-height: 25px;
+  font-weight: 500;
+  margin: 58px 48px;
+}
